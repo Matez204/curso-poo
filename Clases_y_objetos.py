@@ -3,10 +3,13 @@ class Celular:
         self.marca=marca
         self.modelo=modelo
         self.camara=camara 
+        
     def llamar(self):
         print(f"Estas llamando desde tu: {self.modelo}")
+        
     def colgar(self):
-        print(f"costaste la llamada desde tu: {self.modelo}")    
+        print(f"costaste la llamada desde tu: {self.modelo}") 
+           
     # marca="sansung" #propiedades fijas, se pueden cambiar fuera de la clase.
     # modelo="s23"
     # camara="48mp"
